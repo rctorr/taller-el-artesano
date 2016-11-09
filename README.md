@@ -1,49 +1,54 @@
 ![talleres de python fifa](./el-artesano.jpg)
 # Proyecto de Programación Computacional
 
-## Introducción
+## Objetivos
 
-La simulación por computador es un campo de las ciencias de la computación que se enfoca en el modelado e implementación de procesos y sistemas basados en fenómenos del mundo real natural y artificial.  En un principio la función de la simulación se encuentra vinculada al campo de las ciencias exactas y las ciencias sociales, como herramientas de proyección y entrenamiento. Pero recientemente la proliferación y simplificación de herramientas de simulación han permitido que campos disciplinares como la arquitectura, el diseño y las artes incorporen estos procedimientos como parte de sus procesos creativos y de producción. Este taller busca proveer a los participantes herramientas conceptuales y técnicas que les permitan incorporar procesos de simulación en sus propios proyectos en investigación.
+- Aumentar las espectativas escolares de los adolescentes
+- Dotar a los adolescentes de herramientas computacionales que les permita tener mejores oportunidades
+- Dotar de un pensamiénto crítico y analítico
+- Formar a nuevos usuarios e impulsores de la cultura libre y el software libre.
+- Fometar una actitud de investigación y desarrollo
 
+## Contenido propuesto
 
-## Metodología
+### Sesión 1: Indroducción
+- Conociendo el software libre, super poderes para tu computadora
+- ¿Qué es la programación?
+- Comunicándonos con la computadora
+- Instalando Python
+- Conociendo Python (La serpiente mágica pero no inteligente!)
+- Ayudándo a todo el mundo compartiendo nuestros proyectos con GitHub
 
-El taller se desarrolla con una metodología teórico - práctica, con mayor prioridad a los contenidos prácticos.  Las sesiones consistirarn en cortas introducciones teóricas al tema, seguido de ejercicios de simulación desarrollados en el entorno de programación processing ( http://processing.org ). Los recursos y materiales del taller serán compartidos con los participantes a través de un repositorio de código y archivos, que permanecerá online aún después del taller.
+[Ver más ...](./introduccion.ipynb)
 
+### Sesión 2: Programación en la ciencias
+- Creando una aplicación para la resolución de fórmulas
 
-## Prerrequisitos
+### Sesión 3: Portafolio del programador
+- Creando un traductor
 
-Para avanzar rápidamente en el tema, es necesario realizar el tutorial introductorio a processing antes de iniciar el taller:
+### Sesión 4: Programación en las ciencias humanas y de expresión
+- Creando una aplicación que detecte faltas de ortografía y/o proporciones la regla gramatical correspondiente (programación modular)
 
+### Sesión 5: La producción de un vídeo juego
+- Definición del juego
+- Bosquejo del funcionamiento
+- Definición de actores, acciones, reglas, leyes físicas, químicas, biológicas o sociales que afectarán al juego.
+- Definición de módulos
+- Definición de los datos
+- Definición de las reglas
+- Programación o desarrolo
+- Pruebas de la versión alpha
+- Programación y corrección de errores
+- Pruebas de la versión beta
+- Programación y corrección de más errores
+- Lanzamiento de la versión 1.0
+- Corrección de errores
+- Lanzamiento de la versión 1.1
+- ...
+- Revisemos un libro...
 
-http://hello.processing.org/
+## Recursos
 
-
-##Contenidos
-
-###Sesión 1
-Introducción a la programación, Introducción a la simulación:  movimiento simple y vectores.
-
-### Sesión 2
-Creación de clases. movimiento fuerzas, aceleración angular.
-
-### Sesión 3
-Sistemas de partículas.
-
-### Sesión 4
-Dinámicas emergentes: agentes autónomos.
-
-
-##Bibliografía y recursos online
-
-* Processing: http://processing.org
-
-* Tutorial introductorio a processing: http://hello.processing.org/
-
-* Shiffman, Daniel. Nature of Code ( online: http://natureofcode.com/ )
-
-* Reas, Casey {Software} Structures. Whitney Artport commissions. 2004. Recuperado de http://artport.whitney.org/commissions/softwarestructures/text.html
-
-* Bohnacker, Hartmut. Generative Gestaltung: Entwerfen, Programmieren, Visualisieren. 1. Aufl. ed. Mainz: Schmidt, 2009. ( website: http://generative-gestaltung.de ).
-
-* De Landa, Manuel. Philosophy and Simulation: The Emergence of Synthetic Reason. London: Continuum, 2011.
+* Python: http://python.org
+* Tutorial introductorio a python: http://www.learnpython.org/es
