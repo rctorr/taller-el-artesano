@@ -1,2 +1,6 @@
 venv*
 .pyc
+.ipynb_checkpoints*
+software*
+.DS_Store
+._*
