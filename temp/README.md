@@ -29,6 +29,38 @@
 - Trabajando ejemplos con Git
 
 ### Sesión 3: Programación en la ciencias
+#### Preparando carpeta de trabajo
+- Creando carpeta ejemplos-python/
+- Cambiarse a esa carpeta ejemplos-python/
+- Crear archivo hola.py con notepadd++
+- Guardarlo dentro en:
+    ```
+    ejemplos-python/
+        |- hola.py
+    ```
+- Inicializar repo de git con: git init
+- Configurar nuestro nombre e email en git con:
+    $ git config --global user.name "Ricardo Torres"
+    $ git config --global user.email rictor@cuhrt.com
+- Agregar cambios con: git add hola.py
+- Guardar cambos con: git commit -m "Iniciando proyecto"
+- Registrarse en GitHub y entrar con su nuevo usuario
+- Crear el repo con el nombre: ejemplos-python
+- Enlazar el repo de GitHub con nuestra carpeta local
+    - Copiando la dirección del repo en GitHub
+    - Pegarla en la consola con el comando
+        $ git remote add origin <pegar texto aquí>
+    - Actualizando el repo en GitHub con:
+        $ git pull -u origin master
+- Verificar que nuestros archivos están en GitHub
+
+*Ejercicio:*
+- Modificar hola.py para que escriba 10 veces el mensaje "Hola Git!"
+- Agregar los cambios a git
+- Guardar los cambios en git local
+- Enviar los cambios a GitHub
+- Terminas cuando se puedan ver los cambios en la página de GitHub
+
 #### Calculando el área de un cuadrado
 ![](./ejecutando-nuestro-programa.png)
 - Instalando PilasEngine
@@ -50,37 +82,28 @@
 - Guardar cambios a github con: git push origin master
 - Terminas cuando tu programa funcionando se pueda ver en la página de GitHub
 
-### Sesión 4: Programación en la ciencias II
-#### Calculando el área de un cuadrado
-![](./ejecutando-nuestro-programa.png)
-- Instalando PilasEngine
-- Iniciar o Terminar el programa para calcular el área de un cuadrado llamado area-de-cuadrado.py
-- El código a escribir es el siguiente
-![](./calcula-area-cuadrado.png)
+### Sesión 4: Programación en las ciencias humanas y de expresión
+- Creando una aplicación que detecte faltas de ortografía y/o proporcione la regla gramatical correspondiente (programación modular)
 
-- Verificar que funcione bien y que los resultados son correctos
+### Sesión 5: La producción de un vídeo juego
+- Definición del juego
+- Bosquejo del funcionamiento
+- Definición de actores, acciones, reglas, leyes físicas, químicas, biológicas o sociales que afectarán al juego.
+- Definición de módulos
+- Definición de los datos
+- Definición de las reglas
+- Programación o desarrolo
+- Pruebas de la versión alpha
+- Programación y corrección de errores
+- Pruebas de la versión beta
+- Programación y corrección de más errores
+- Lanzamiento de la versión 1.0
+- Corrección de errores
+- Lanzamiento de la versión 1.1
+- ...
+- Revisemos un libro...
 
-*Ejercicio:*
-- Crear un programa llamado volumen-de-cubo.py para calcular el volumen de un cubo copiandolo a partir del programa area-de-cuadrado.py
-- Verificar que funcione de forma correcta
-
-### Sesión 5: Compartiendo mis programas con el mundo
-#### Guardando cambios locales
-- Instalar Git, si no está instalado
-- Agregar cambios a git con: git add area-de-cuadrado.py
-- Guardar cambios a git con: git commit -m "Agregando programa area de un cuadrado"
-- Agregar cambios a git con: git add volumen-de-cubo.py
-- Guardar cambios a git con: git commit -m "Agregando programa volumen de un cubo"
-- Guardar cambios a github con: git push origin master
-
-#### Guardando cambios en GitHub
-- Registrarse en GitHub
-- Agregar repo remoto con: git remote add origin ...
-- Guardar cambios a github con: git push -u origin master
-- Terminas cuando tu programa funcionando se pueda ver en la página de GitHub
-
-#### Recursos
+## Recursos
 
 * Python: http://python.org
 * Tutorial introductorio a python: http://www.learnpython.org/es
-* Revisemos un libro...
